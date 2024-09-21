@@ -1,4 +1,4 @@
-# My Personal Dotfiles
+# My Personal WezTerm Dotfiles
 
 These are my personal dotfiles for setting up WezTerm with Oh-My-Tmux.
 
