@@ -20,9 +20,11 @@ return {
 	-- Disable WezTerm's fancy tab bar
 	use_fancy_tab_bar = false,
 
-	-- Set tmux with correct Homebrew path
-	-- Check your actual tmux path with `which tmux`
-	default_prog = { "/opt/homebrew/bin/tmux", "new-session", "-A", "-s", "default" },
+	-- if zellij or tmux
+	-- default_prog = { "/opt/homebrew/bin/zellij" },
+	-- default_prog = { "zellij" },
+	-- default_prog = { "/opt/homebrew/bin/tmux", "new-session", "-A", "-s", "default" },
+	-- default_prog = { "tmux", "new-session", "-A", "-s", "default" },
 
 	-- Set the initial window size (optional)
 	initial_rows = 30,
