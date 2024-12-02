@@ -21,10 +21,10 @@ return {
 	use_fancy_tab_bar = false,
 
 	-- if zellij or tmux
-	default_prog = { "/opt/homebrew/bin/zellij" },
-	-- default_prog = { "zellij" },
+	default_prog = { "/bin/zsh", "-c", "/opt/homebrew/bin/zellij" },
+	-- default_prog = { "/bin/zsh", "-c", "zellij" },
 	-- default_prog = { "/opt/homebrew/bin/tmux", "new-session", "-A", "-s", "default" },
-	-- default_prog = { "tmux", "new-session", "-A", "-s", "default" },
+	-- default_prog = { "/opt/homebrew/bin/tmux", "new-session", "-A", "-s", "default" },
 
 	-- Set the initial window size (optional)
 	initial_rows = 30,
