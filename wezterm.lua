@@ -21,7 +21,7 @@ return {
 	use_fancy_tab_bar = false,
 
 	-- if zellij or tmux
-	-- default_prog = { "/opt/homebrew/bin/zellij" },
+	default_prog = { "/opt/homebrew/bin/zellij" },
 	-- default_prog = { "zellij" },
 	-- default_prog = { "/opt/homebrew/bin/tmux", "new-session", "-A", "-s", "default" },
 	-- default_prog = { "tmux", "new-session", "-A", "-s", "default" },
